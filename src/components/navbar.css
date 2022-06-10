@@ -1,0 +1,30 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  right: 1vw;
+  top: 1vh;
+  height: 10vh;
+  width: 20vw;
+  width: 75vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h1 {
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: system-ui;
+  text-transform: capitalize;
+}
+.nav-icons {
+  display: flex;
+}
+.icon {
+  background-color: rgb(195 61 225);
+  border-radius: 1000px;
+  margin: 0px 10px;
+  height: 8vh;
+  width: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

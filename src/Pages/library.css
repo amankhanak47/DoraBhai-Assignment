@@ -1,0 +1,83 @@
+.library {
+  height: 100%;
+  width: 100%;
+}
+.table-conatiner {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.update-btn {
+  position: absolute;
+  top: 1vh;
+  right: 21vw;
+  height: 7vh;
+  width: 12vw;
+  background-color: rgb(195 61 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.update-btn button {
+  font-size: larger;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+.tables {
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  top: 8vh;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table {
+  height: 200px;
+  margin: 20px;
+  width: 90%;
+  background-color: rgb(228 220 227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table p {
+  position: relative;
+  left: 20px;
+  top: 5px;
+  width: 100%;
+  font-family: system-ui;
+  font-weight: 700;
+  font-size: large;
+}
+.table-row tr td {
+  padding-left: 10px;
+  padding-right: 1px;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-family: system-ui;
+  font-weight: 500;
+  /* min-width: fit-content; */
+  /* font-family:; */
+}
+.table-row {
+  margin: 20px 0px;
+  background-color: rgb(183 148 174);
+  width: 70vw;
+  min-height: 45px;
+}
+.table-row tr {
+  display: flex;
+  justify-content: space-evenly;
+}

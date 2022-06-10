@@ -1,0 +1,85 @@
+.upload {
+  height: 100%;
+  width: 100%;
+  background-color: #eaa2fc;
+}
+.upload-input {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.inputs {
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  align-items: center;
+}
+.input-components {
+  height: fit-content;
+  width: 90%;
+}
+.input-components h4 {
+  font-size: larger;
+  font-weight: 700;
+  font-family: system-ui;
+  margin: 15px 0px 5px 10px;
+}
+.paper-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.paper-btns Button {
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  width: 200px;
+  font-size: large;
+  font-weight: 600;
+  font-family: system-ui;
+  background-color: #fff;
+}
+
+.radio-block input {
+  background-color: transparent;
+}
+.radio-block label {
+  font-size: large;
+  font-weight: 600;
+  font-family: system-ui;
+}
+.radioclass {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.width-full {
+  width: 100%;
+}
+.height-full {
+  height: 35px;
+  margin-left: 20px;
+}
+.tags {
+  height: 100px;
+  margin-left: 20px;
+}
+.upload-btn {
+  position: absolute;
+  background-color: rgb(195 61 225);
+  right: 40px;
+  bottom: 20px;
+}
+.upload-btn Button {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-family: system-ui;
+  font-weight: 600;
+  margin: 5px;
+}

@@ -1,0 +1,46 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 75%;
+}
+.h-header {
+  font-weight: 700;
+  width: 100%;
+  background-color: #eaa2fc;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-size: larger;
+}
+.h-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.h-main-blocks {
+  height: 13vh;
+  width: 30%;
+  background-color: rgb(195 61 225);
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-main-blocks a p {
+  color: aliceblue;
+  font-family: system-ui;
+}
+.h-main-blocks a {
+  text-decoration: none;
+}

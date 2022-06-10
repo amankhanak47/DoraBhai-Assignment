@@ -1,0 +1,25 @@
+.Sidebar {
+  height: 93vh;
+  background-color: rgb(195 61 225);
+  width: 20vw;
+}
+.sidebar-logo {
+  width: 14vw;
+  margin: 2vh 3vw;
+}
+.Sidebar hr {
+  width: 20vw;
+  color: black;
+  margin: 1vh auto;
+}
+.opt {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 8vh;
+  font-size: larger;
+  font-weight: 700;
+  font-family: system-ui;
+}
