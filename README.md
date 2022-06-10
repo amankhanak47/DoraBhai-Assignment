@@ -1,4 +1,7 @@
 # This is an assignment given by dorabhai private limited given to get internship 
+
+### `first home page will appear after clicking on library => library page will open and then after clicking on upload => upload page will appear` 
+
 In the project directory, you can run:
 
 ### `npm start`
