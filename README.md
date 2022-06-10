@@ -1,4 +1,4 @@
-###This is an assignment given by dorabhai private limited given to get internship 
+# This is an assignment given by dorabhai private limited given to get internship 
 In the project directory, you can run:
 
 ### `npm start`
